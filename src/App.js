@@ -6,6 +6,7 @@ import apolloClient from './apollo';
 import { Provider } from 'react-redux';
 import store from './store';
 import PokemonsPage from './pages/PokemonsPage';
+import PokemonPage from './pages/PokemonPage';
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
           <Router>
             <NavBar />
             <Route exact path="/" component={PokemonsPage} />
-            <Route exact path="/pokemon/:pokemon_id" component={null} />
+            <Route exact path="/pokemon/:pokemon_id" component={PokemonPage} />
           </Router>
         </ApolloProvider>
       </Provider>
