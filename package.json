@@ -1,7 +1,17 @@
 {
   "name": "pokemon-app",
-  "version": "0.1.0",
+  "description": "Pokemon App Challenge",
+  "version": "1.0.0",
   "private": true,
+  "author": "Ayman Abu Khalifa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymanblank/pokemon-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aymanblank/pokemon-app/issues"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
