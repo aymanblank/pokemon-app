@@ -1,3 +1,6 @@
+# Stylindex Challenge
+[![Build Status](https://travis-ci.com/aymanblank/pokemon-app.svg?branch=master)](https://travis-ci.com/aymanblank/pokemon-app)
+
 ## Prerequisite
 * node
 * npm

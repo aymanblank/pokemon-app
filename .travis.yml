@@ -1,0 +1,12 @@
+language: node_js
+sudo: false
+node_js:
+- '8'
+install:
+- yarn install
+script:
+- yarn build
+deploy:
+  provider: heroku
+  api_key: "7d7b7ab1-0d84-4508-a79a-c21704b0c9e1"
+  app: stylindex-pokemon-app
